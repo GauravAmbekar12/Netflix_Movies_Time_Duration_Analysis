@@ -227,7 +227,7 @@ plt.style.use('fivethirtyeight')                                   #use 1st time
 fig = plt.figure(figsize=(12,8))
 
 # Create a scatter plot of duration versus release_year
-plt.scatter(movies_col_subset['release_year'],movies_col_subset['duration'],c=colors)
+plt.scatter( movies_col_subset['duration'],movies_col_subset['release_year'],c=colors)
 
 # Create a title and axis labels
 plt.title("Movie duration by year of release")
